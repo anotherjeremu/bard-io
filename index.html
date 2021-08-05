@@ -2,34 +2,98 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="/favicon.png" />
+    <link rel="icon" href="./favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    
+    <title>bard.io</title>
 
 		
 
-		<link rel="modulepreload" href="/./_app/start-ba586a21.js">
+		<link rel="modulepreload" href="/./_app/start-7c6511cd.js">
 		<link rel="modulepreload" href="/./_app/chunks/vendor-09e2d04d.js">
+		<link rel="modulepreload" href="/./_app/pages/__layout.svelte-4594f582.js">
+		<link rel="modulepreload" href="/./_app/chunks/stores-479d6723.js">
+		<link rel="modulepreload" href="/./_app/chunks/stores-68f61374.js">
+		<link rel="modulepreload" href="/./_app/pages/index.svelte-ed864442.js">
+		<link rel="modulepreload" href="/./_app/chunks/ReceiveGoldUI-8ca95150.js">
+		<link rel="modulepreload" href="/./_app/chunks/MessageBox-bcd6abb2.js">
 		<link rel="stylesheet" href="/./_app/assets/start-a8cd1609.css">
 		<link rel="stylesheet" href="/./_app/assets/vendor-d0a4fc24.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/__layout.svelte-b8ded46e.css">
+		<link rel="stylesheet" href="/./_app/assets/pages/index.svelte-26a1d574.css">
+		<link rel="stylesheet" href="/./_app/assets/Scroll.svelte_svelte&type=style&lang-df8f679d.css">
+		<link rel="stylesheet" href="/./_app/assets/MessageBox-cddd6c3d.css">
 
 		<script type="module">
-			import { start } from "/./_app/start-ba586a21.js";
+			import { start } from "/./_app/start-7c6511cd.js";
 			start({
 				target: document.querySelector("#svelte"),
 				paths: {"base":"","assets":"/."},
 				session: {},
 				host: location.host,
 				route: true,
-				spa: true,
+				spa: false,
 				trailing_slash: "never",
-				hydrate: null
+				hydrate: {
+					status: 200,
+					error: null,
+					nodes: [
+						import("/./_app/pages/__layout.svelte-4594f582.js"),
+						import("/./_app/pages/index.svelte-ed864442.js")
+					],
+					page: {
+						host: location.host, // TODO this is redundant
+						path: "/",
+						query: new URLSearchParams(""),
+						params: {}
+					}
+				}
 			});
 		</script>
   </head>
   <body>
     <div id="svelte">
+
+
+
+
+
+<nav id="mobile-nav" class="svelte-xghg25"><button class="svelte-xghg25"><img src="/static/assets/menu-icon-mobile.png" alt="Menu Button" id="menu-icon" class="svelte-xghg25"></button>
+    <h1 class="svelte-xghg25">bard.io</h1></nav>
+
+
+<main class="svelte-tu8il">
+
+
+
+<section class="welcome svelte-11yqy9y"><h1>welcome to the forest of letters</h1>
+    <button class="svelte-11yqy9y">enter</button></section>
+
+
+
+
+
+
+
+<div id="player-box" class="svelte-11yqy9y">
+<div class="message-box svelte-13u630l">
+  
+  <img id="player-img" src="/static/assets/favicon.png" alt="" class="svelte-13u630l">
+    
+    
+    <div class="typewriter-container svelte-1xd0fu9" style="--cursor-color: black"><p class="msg-txt svelte-13u630l">i was sent to spread music throughout the world, but i forgot how to play...</p></div>
+
+    <button id="next-button" class="hidden svelte-13u630l">next</button>
+  
+  <div class="box b1 svelte-13u630l"></div>
+  <div class="box b2 svelte-13u630l"></div>
+  <div class="box b3 svelte-13u630l"></div>
+  <div class="box b4 svelte-13u630l"></div>
+</div>
+</div>
+</main>
+
+
 
 	
 </div>
