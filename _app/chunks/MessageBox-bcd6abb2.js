@@ -217,7 +217,7 @@ function B(t) {
       (s = n(t, 'IMG', { src: !0, alt: !0, class: !0 })), this.h();
     },
     h() {
-      s.src !== (e = `/static/forest-of-letters/${t[2]}-${t[1]}.png`) &&
+      s.src !== (e = `/bard-io/static/forest-of-letters/${t[2]}-${t[1]}.png`) &&
         i(s, 'src', e),
         i(s, 'alt', ''),
         i(s, 'class', 'svelte-13u630l');
@@ -227,7 +227,7 @@ function B(t) {
     },
     p(t, a) {
       6 & a &&
-        s.src !== (e = `/static/forest-of-letters/${t[2]}-${t[1]}.png`) &&
+        s.src !== (e = `/bard-io/static/forest-of-letters/${t[2]}-${t[1]}.png`) &&
         i(s, 'src', e);
     },
     d(t) {
@@ -245,8 +245,8 @@ function G(t) {
       (s = n(t, 'IMG', { src: !0, alt: !0, class: !0 })), this.h();
     },
     h() {
-      s.src !== (e = '/static/scale-the-mountain/monk.png') &&
-        i(s, 'src', '/static/scale-the-mountain/monk.png'),
+      s.src !== (e = '/bard-io/static/scale-the-mountain/monk.png') &&
+        i(s, 'src', '/bard-io/static/scale-the-mountain/monk.png'),
         i(s, 'alt', ''),
         i(s, 'class', 'svelte-13u630l');
     },
