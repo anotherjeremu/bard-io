@@ -1,4 +1,4 @@
-# bard.io (we dont actually own that domain)
+# [bard.io](https://bard.lums.io) (we dont actually own that domain)
 
 created by @SizweMalobola, @DeeAyDan & @lumsdnb
 
